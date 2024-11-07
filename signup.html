@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Registrate</title>
+    <link rel="stylesheet" href="assets/css/signin.css" />
+    <link href="assets/css/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="title">Registro</div>
+      <form action="signin.html" onsubmit="signup()">
+        <div class="field">
+          <input type="text" id="email" required />
+          <label>Correo</label>
+        </div>
+        <div class="field">
+          <input type="password" id="pass" required />
+          <label>Contraseña</label>
+        </div>
+        <div class="field">
+          <input type="submit" value="Registrar" />
+        </div>
+        <div class="signup-link">
+          ¿Ya eres usuario? <a href="signin.html">Iniciar sesión</a>
+        </div>
+      </form>
+    </div>
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

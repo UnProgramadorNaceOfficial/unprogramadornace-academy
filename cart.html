@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart - Un Programador Nace Academy</title>
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+    <link href="assets/css/main.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header id="header" class="header d-flex align-items-center sticky-top">
+      <div class="container-fluid container-xl gap-2 d-flex align-items-center">
+        <a href="index.html" class="logo d-flex align-items-center me-auto">
+          <h1 class="sitename">UPN Academy</h1>
+        </a>
+        <a href="index.html" class="btn-back">Volver a Inicio</a>
+      </div>
+    </header>
+
+    <main class="main">
+      <section id="cart-section" class="section cart">
+        <div class="container">
+          <h2>Mi Carrito</h2>
+          <div id="cart-contents">
+            <p id="empty-cart-message">Tu carrito está vacío.</p>
+          </div>
+
+          <div id="total-section" class="total-section">
+            <h3>Total: $<span id="total-price">0</span></h3>
+            <button class="button-pay">Pagar</button>
+          </div>
+
+        </div>
+      </section>
+    </main>
+
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/cart.js"></script>
+  </body>
+</html>
